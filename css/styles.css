@@ -4,23 +4,18 @@
 }
 
 .navbar-light-color {
-  color: #ffffff;
+  color: #fff;
 }
 
 .navbar-nav .nav-item {
   display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
   -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
 }
 
 .navbar-nav .nav-item .nav-link {
-  color: #ffffff;
-}
-
-.navbar-toggler-icon {
   color: #fff;
 }
 

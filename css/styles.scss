@@ -1,7 +1,7 @@
 // Color Themes
 $navcolor: #3e3c3c;
 $offwhite: #f4f5f7;
-$fullwhite: #ffffff;
+$fullwhite: #fff;
 $orange: #f55800;
 $hoverOrange: #fff5e1;
 $pressedButtonTextColor: #f4f1f0;
@@ -9,15 +9,14 @@ $darkBlueText: #091e42;
 $bottomBlueText: #262626;
 $textareaPlaceholderColor: #3c3a39;
 $inputPlaceholderColor: #979493;
-$footerDividerColor: #DFE1E6;
-$footerIconColor: #505F79;
+$footerDividerColor: #dfe1e6;
+$footerIconColor: #505f79;
 $recentWorksDivider: #212121;
 // Font Themes
 $inter: 'Inter', sans-serif;
 $creteRound: 'Crete Round', sans-serif;
 $roboto: 'Roboto', sans-serif;
 $poppins: 'Poppins', sans-serif;
-
 
 .navbar {
   padding: 1rem 3rem;
@@ -37,10 +36,6 @@ $poppins: 'Poppins', sans-serif;
       color: $fullwhite;
     }
   }
-}
-
-.navbar-toggler-icon {
-  color: #fff;
 }
 
 .email {
