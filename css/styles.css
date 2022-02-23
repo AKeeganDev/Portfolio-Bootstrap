@@ -1,1 +1,37 @@
-/* No CSS *//*# sourceMappingURL=styles.css.map */
+.navbar {
+  padding: 1rem 3rem;
+  background-color: #3e3c3c;
+}
+
+.navbar-light-color {
+  color: #ffffff;
+}
+
+.navbar-nav .nav-item {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.navbar-nav .nav-item .nav-link {
+  color: #ffffff;
+}
+
+.navbar-toggler-icon {
+  color: #fff;
+}
+
+.email {
+  background-image: url(../img/email.svg);
+  background-repeat: no-repeat;
+  height: 20px;
+  width: 22px;
+}
+
+body {
+  font-family: "Inter", sans-serif;
+}
+/*# sourceMappingURL=styles.css.map */
