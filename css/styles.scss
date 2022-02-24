@@ -115,5 +115,22 @@ body {
 }
 
 .skills {
+  color: $fullwhite;
   background-color: black;
+}
+
+.about-header {
+  color: $orange;
+}
+
+.about-text {
+  color: $fullwhite;
+}
+
+.skill-section {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  list-style: none;
 }
