@@ -55,16 +55,20 @@ body {
 
 .welcome {
   background-color: black;
+
   div {
     h1 {
       color: $orange;
     }
+
     h2 {
       color: white;
     }
+
     p {
       color: $offwhite;
     }
+
     ul {
       li {
         a {
@@ -92,7 +96,6 @@ body {
   display: flex;
   padding: 1rem;
   align-items: flex-end;
-
 }
 
 .list-group-horizontal {
