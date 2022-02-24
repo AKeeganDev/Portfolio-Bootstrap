@@ -90,5 +90,30 @@ body {
   color: white;
   list-style: none;
   display: flex;
+  padding: 1rem;
+  align-items: flex-end;
 
+}
+
+.list-group-horizontal {
+  .list-group-item {
+    .list-group-item {
+      border-top-width: 1px;
+      border-left-width: 0;
+      margin: 2px;
+      border-top-right-radius: 0;
+    }
+  }
+}
+
+#card-text {
+  color: $fullwhite;
+}
+
+.about-me {
+  background-color: black;
+}
+
+.skills {
+  background-color: black;
 }
