@@ -48,3 +48,47 @@ $poppins: 'Poppins', sans-serif;
 body {
   font-family: $inter;
 }
+
+.bottom-icons {
+  justify-content: center;
+}
+
+.welcome {
+  background-color: black;
+  div {
+    h1 {
+      color: $orange;
+    }
+    h2 {
+      color: white;
+    }
+    p {
+      color: $offwhite;
+    }
+    ul {
+      li {
+        a {
+          color: $offwhite;
+        }
+      }
+    }
+  }
+}
+
+.works-title,
+.first-work {
+  div {
+    h2,
+    h3,
+    p {
+      color: $darkBlueText;
+    }
+  }
+}
+
+.tags {
+  color: white;
+  list-style: none;
+  display: flex;
+
+}

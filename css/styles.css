@@ -9,10 +9,11 @@
 
 .navbar-nav .nav-item {
   display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
   -webkit-box-align: center;
-  -ms-flex-align: center;
-  align-items: center;
+      -ms-flex-align: center;
+          align-items: center;
 }
 
 .navbar-nav .nav-item .nav-link {
@@ -28,5 +29,48 @@
 
 body {
   font-family: "Inter", sans-serif;
+}
+
+.bottom-icons {
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.welcome {
+  background-color: black;
+}
+
+.welcome div h1 {
+  color: #f55800;
+}
+
+.welcome div h2 {
+  color: white;
+}
+
+.welcome div p {
+  color: #f4f5f7;
+}
+
+.welcome div ul li a {
+  color: #f4f5f7;
+}
+
+.works-title div h2,
+.works-title div h3,
+.works-title div p,
+.first-work div h2,
+.first-work div h3,
+.first-work div p {
+  color: #091e42;
+}
+
+.tags {
+  color: white;
+  list-style: none;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
 }
 /*# sourceMappingURL=styles.css.map */
