@@ -1,0 +1,125 @@
+.navbar {
+  padding: 1rem 3rem;
+  background-color: #3e3c3c;
+}
+
+.navbar-light-color {
+  color: #fff;
+}
+
+.navbar-nav .nav-item {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.navbar-nav .nav-item .nav-link {
+  color: #fff;
+}
+
+.email {
+  background-image: url(../img/email.svg);
+  background-repeat: no-repeat;
+  height: 20px;
+  width: 22px;
+}
+
+body {
+  font-family: "Inter", sans-serif;
+}
+
+.bottom-icons {
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.welcome {
+  background-color: black;
+}
+
+.welcome div h1 {
+  color: #f55800;
+}
+
+.welcome div h2 {
+  color: white;
+}
+
+.welcome div p {
+  color: #f4f5f7;
+}
+
+.welcome div ul li a {
+  color: #f4f5f7;
+}
+
+.works-title div h2,
+.works-title div h3,
+.works-title div p,
+.first-work div h2,
+.first-work div h3,
+.first-work div p {
+  color: #091e42;
+}
+
+.tags {
+  color: white;
+  list-style: none;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  padding: 1rem;
+  -webkit-box-align: end;
+      -ms-flex-align: end;
+          align-items: flex-end;
+}
+
+.list-group-horizontal .list-group-item .list-group-item {
+  border-top-width: 1px;
+  border-left-width: 0;
+  margin: 2px;
+  border-top-right-radius: 0;
+}
+
+#card-text {
+  color: #fff;
+}
+
+.about-me {
+  background-color: black;
+}
+
+.skills {
+  color: #fff;
+  background-color: black;
+}
+
+.about-header {
+  color: #f55800;
+}
+
+.about-text {
+  color: #fff;
+}
+
+.skill-section {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  list-style: none;
+}
+/*# sourceMappingURL=styles.css.map */
